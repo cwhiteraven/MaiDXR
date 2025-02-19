@@ -5,18 +5,17 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 [Chinese 中文 README](https://github.com/xiaopeng12138/MaiDXR/blob/main/README_zh.md)
 
-OPEN SOURCE FILES HERE: (https://drive.google.com/file/d/1qz8-AcpYY_vcsJvrIZYKcOzsHw5wVDTS/view?usp=drive_link)
-THESE FILES ARE A UNITY PROJECT!!!
-IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 
 **About this project**
 ---
 - This project is an update of https://github.com/xiaopeng12138/MaiMai-VR. 
 - Support DX version or above
 - The model is almost 1:1 to DX cabinet/framework
-- Using native touch input and light output
+- Using native touch input and light outupt
 - 90hz or 120hz capture (Bitblt) (Thanks @Thalesalex for the recommendation)
 - Customizable haptic feedback
+- 3rd person camera and smooth camera
+- 3 customizable buttons
 
 
 **Preview**
@@ -46,21 +45,25 @@ IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 
 **Build requirements**
 ---
-- Current Unity version: 6000.0.38f1
+- Current Unity version: 2021.3.8f1
 
 
 **Supported platform**
 ---
-- All SteamVR devices (Index，HTC，Oculus)
-- All Oculus devices (Oculus Desktop App)
+- All SteamVR device (Index，HTC，Oculus)
+- All Oculus device (Oculus Desktop App)
 - Tested on Quest 2 through Oculus link (Native and via SteamVR) and ALVR (via SteamVR). The Hand Balls position is by default adjusted for the Quest 2 controller.
 
-**Disclaimer**
+**Declaimer**
 ---
 - This project is non-profit and some resources came from Internet!
 - Although this is under the MIT license, do not use this in commercial/profitable scenarios!
 - Please support your local arcade if you can!
 
+
+**Changelog**
+---
+Please see Changes.md
 
 
 **How to use**
@@ -74,7 +77,7 @@ IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 - If you need button light, pls bind COM21 to COM51 (it must be these two ports)(Do not disable DummyLED!).
 - Run the game in window mode by adding [Unity Standalone Player command line arguments](https://docs.unity3d.com/Manual/PlayerCommandLineArguments.html) in xxxxx.bat and make sure there is no black bar. Recommend setting for 1080p display: "xxxxxx.exe -screen-fullscreen 0 -screen-width 1170 -screen-height 1050"
 - Start MaiDXR first then start the game.
-- If your touch is not working, try to enable somehow Test mode then exit Test mode.
+- If your touch is not working, try to enable somehow Test mod then exit Test mode.
 
 
 **Configuration**
@@ -87,14 +90,36 @@ If you want to adjust the settings, please take a step back. The controller poin
 
 Some configs in config.json are only the index of the dropdown.
 
+You can use the pointer to point the third-person camera and grab it to the position where you want to be.
+
+**Multiplayer Configuration**
+---
+All the settings related to multiplayer are inside config.json.
+
+- **HostIP:** IP address of the host to be connected by the client, supports IPV4/6. IPV6 format: **HostIP: "[fe80::1145:1400:1919:8100]"** 
+- **HostPort:** the port of the host, also the port to which the client will connect. The protocol is UDP.
+- If you need to forward the port on top of the router, you only need to forward one of the above UDP ports.
+
+**EncoderSetting:**
+- **bitRate:** bit rate (unit: bit; default: 196608)
+- **frameRate:** frame rate (in FPS; default: 24)
+- **maxFrameSize:** maximum single frame size (unit: bit; default: 8192)
+- **ResolutionDivider:** Reduce the encoding resolution, i.e. the input window screen resolution. Does not affect the local display. Inputting 2 will divide the window's width and height by 2. (default: 2)
+
+**Too high bit rate and resolution will cause all kinds of lag and issues, it is recommended to divide the resolution by 3 and adjust the frame rate to less than 20 fps, which can solve the problem of compression mosaic and encoding lag to some extent.**
+
 ToDo
 ---
 - √ Add user-adjustable settings (controller position etc.)
 - √ Add non-VR window and camera smooth
 - √ Add button light
 - √ Add button vibration
+- √ Add 3rd person camera
+- √ Add 2p
+- √ Add custom button
 - √ Support 1p only capture
 - √ Add in game setting panel 
+- Add Multiplay
 - Add visual touch and button feedback
 
 Huge thanks to HelloKS, derole1, hecomi, V17AMax, and every one in BSAH
