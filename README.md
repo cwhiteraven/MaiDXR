@@ -15,7 +15,6 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 - 90hz or 120hz capture (Bitblt) (Thanks @Thalesalex for the recommendation)
 - Customizable haptic feedback
 - 3rd person camera and smooth camera
-- 3 customizable buttons
 
 
 **Preview**
@@ -45,16 +44,16 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 **Build requirements**
 ---
-- Current Unity version: 2021.3.8f1
+- Current Unity version: 6000.0.38f1
 
 
 **Supported platform**
 ---
-- All SteamVR device (Index，HTC，Oculus)
-- All Oculus device (Oculus Desktop App)
+- All SteamVR devices (Index，HTC，Oculus)
+- All Oculus devices (Oculus Desktop App)
 - Tested on Quest 2 through Oculus link (Native and via SteamVR) and ALVR (via SteamVR). The Hand Balls position is by default adjusted for the Quest 2 controller.
 
-**Declaimer**
+**Disclaimer**
 ---
 - This project is non-profit and some resources came from Internet!
 - Although this is under the MIT license, do not use this in commercial/profitable scenarios!
@@ -92,36 +91,14 @@ Some configs in config.json are only the index of the dropdown.
 
 You can use the pointer to point the third-person camera and grab it to the position where you want to be.
 
-**Multiplayer Configuration**
----
-All the settings related to multiplayer are inside config.json.
-
-- **HostIP:** IP address of the host to be connected by the client, supports IPV4/6. IPV6 format: **HostIP: "[fe80::1145:1400:1919:8100]"** 
-- **HostPort:** the port of the host, also the port to which the client will connect. The protocol is UDP.
-- If you need to forward the port on top of the router, you only need to forward one of the above UDP ports.
-
-**EncoderSetting:**
-- **bitRate:** bit rate (unit: bit; default: 196608)
-- **frameRate:** frame rate (in FPS; default: 24)
-- **maxFrameSize:** maximum single frame size (unit: bit; default: 8192)
-- **ResolutionDivider:** Reduce the encoding resolution, i.e. the input window screen resolution. Does not affect the local display. Inputting 2 will divide the window's width and height by 2. (default: 2)
-
-**Too high bit rate and resolution will cause all kinds of lag and issues, it is recommended to divide the resolution by 3 and adjust the frame rate to less than 20 fps, which can solve the problem of compression mosaic and encoding lag to some extent.**
-
 ToDo
 ---
 - √ Add user-adjustable settings (controller position etc.)
 - √ Add non-VR window and camera smooth
 - √ Add button light
 - √ Add button vibration
-- √ Add 3rd person camera
-- √ Add 2p
-- √ Add custom button
 - √ Support 1p only capture
 - √ Add in game setting panel 
-- Add Multiplay
-- Add visual touch and button feedback
-
 Huge thanks to HelloKS, derole1, hecomi, V17AMax, and every one in BSAH
 
 If you want to add any function pls commit PR, I will accept it as soon as possible and make a new build/release.
