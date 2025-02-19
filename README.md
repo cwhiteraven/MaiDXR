@@ -52,7 +52,7 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 - All Oculus device (Oculus Desktop App)
 - Tested on Quest 2 through Oculus link (Native and via SteamVR) and ALVR (via SteamVR). The Hand Balls position is by default adjusted for the Quest 2 controller.
 
-**Declaimer**
+**Disclaimer**
 ---
 - This project is non-profit and some resources came from Internet!
 - Although this is under the MIT license, do not use this in commercial/profitable scenarios!
