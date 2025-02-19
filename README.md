@@ -48,8 +48,8 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 **Supported platform**
 ---
-- All SteamVR device (Index，HTC，Oculus)
-- All Oculus device (Oculus Desktop App)
+- All SteamVR devices (Index，HTC，Oculus)
+- All Oculus devices (Oculus Desktop App)
 - Tested on Quest 2 through Oculus link (Native and via SteamVR) and ALVR (via SteamVR). The Hand Balls position is by default adjusted for the Quest 2 controller.
 
 **Disclaimer**
