@@ -14,7 +14,7 @@ IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 - This project is an update of https://github.com/xiaopeng12138/MaiMai-VR. 
 - Support DX version or above
 - The model is almost 1:1 to DX cabinet/framework
-- Using native touch input and light outupt
+- Using native touch input and light output
 - 90hz or 120hz capture (Bitblt) (Thanks @Thalesalex for the recommendation)
 - Customizable haptic feedback
 
@@ -62,10 +62,6 @@ IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 - Please support your local arcade if you can!
 
 
-**Changelog**
----
-Please see Changes.md
-
 
 **How to use**
 ---
@@ -78,7 +74,7 @@ Please see Changes.md
 - If you need button light, pls bind COM21 to COM51 (it must be these two ports)(Do not disable DummyLED!).
 - Run the game in window mode by adding [Unity Standalone Player command line arguments](https://docs.unity3d.com/Manual/PlayerCommandLineArguments.html) in xxxxx.bat and make sure there is no black bar. Recommend setting for 1080p display: "xxxxxx.exe -screen-fullscreen 0 -screen-width 1170 -screen-height 1050"
 - Start MaiDXR first then start the game.
-- If your touch is not working, try to enable somehow Test mod then exit Test mode.
+- If your touch is not working, try to enable somehow Test mode then exit Test mode.
 
 
 **Configuration**
@@ -90,8 +86,6 @@ You can adjust all settings in the config panel or via config.json. The changes 
 If you want to adjust the settings, please take a step back. The controller pointer will automatically be disabled when the controller are too close to the cabinet.
 
 Some configs in config.json are only the index of the dropdown.
-
-You can use the pointer to point the third-person camera and grab it to the position where you want to be.
 
 ToDo
 ---
