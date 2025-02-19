@@ -5,6 +5,9 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 [Chinese 中文 README](https://github.com/xiaopeng12138/MaiDXR/blob/main/README_zh.md)
 
+OPEN SOURCE FILES HERE: (https://drive.google.com/file/d/1qz8-AcpYY_vcsJvrIZYKcOzsHw5wVDTS/view?usp=drive_link)
+THESE FILES ARE A UNITY PROJECT!!!
+IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 
 **About this project**
 ---
