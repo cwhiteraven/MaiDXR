@@ -46,7 +46,7 @@ IF YOU WANT A PRE-BUILT FILE, GO TO RELEASES!!
 
 **Build requirements**
 ---
-- Current Unity version: 2021.3.8f1
+- Current Unity version: 6000.0.38f1
 
 
 **Supported platform**
