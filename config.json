@@ -1,0 +1,33 @@
+{
+  "Capture1P": false,
+  "CaptureDesktop": false,
+  "CaptureFPS": 3,
+  "CaptureMode": 2,
+  "CustomButton1Dropdown": 124,
+  "CustomButton2Dropdown": 124,
+  "NVRCameraSmooth": 0.029999999329447746,
+  "NVRFOV": 65.0,
+  "NVRFPS": 5,
+  "PlayerConfig": {
+    "HandPositionX": 0.0,
+    "HandPositionY": 0.0,
+    "HandPositionZ": 0.0,
+    "HandSize": 8.0,
+    "HapticAmplitude": 1.0,
+    "HapticDuration": 0.10000000149011612,
+    "PlayerHeight": 0.0
+  },
+  "TestButtonDropdown": 124,
+  "TouchFPS": 2,
+  "TPCamPosition": [
+    -1.137,
+    1.998,
+    0.2993
+  ],
+  "TPCamRotation": [
+    0.280064523,
+    0.401933849,
+    -0.13059622,
+    0.86195
+  ]
+}
