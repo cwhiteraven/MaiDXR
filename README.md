@@ -3,6 +3,14 @@ Open Source VR Arcade Simulator
 
 THIS IS A FORK OF THE PROJECT: https://github.com/xiaopeng12138/MaiDXR
 
+Updated fork of MaiDXR:
+Optimized by removing unnecessary objects
+Removed Aime reader button because I use AMNet
+Updated to Unity 6000.0.38f1
+Updated XR Movements because the old scripts were deprecated
+Removed errors
+Removed NVR Camera to increase FPS
+
 Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 [Chinese 中文 README](https://github.com/xiaopeng12138/MaiDXR/blob/main/README_zh.md)
