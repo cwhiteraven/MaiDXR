@@ -11110,6 +11110,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9115653827543720598, guid: 4cbf0dbca1ca1a5499c4b7806ab6aac5,
+        type: 3}
+      propertyPath: m_Name
+      value: ButtonHitbox1
+      objectReference: {fileID: 0}
     - target: {fileID: 9144607911160691987, guid: 4cbf0dbca1ca1a5499c4b7806ab6aac5,
         type: 3}
       propertyPath: m_LocalPosition.x
