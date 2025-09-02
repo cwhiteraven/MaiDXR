@@ -45,16 +45,17 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 **Build requirements**
 ---
-- Current Unity version: 2021.3.8f1
+- Current Unity version: 6000
 
 
 **Supported platform**
 ---
-- All SteamVR device (Index，HTC，Oculus)
-- All Oculus device (Oculus Desktop App)
-- Tested on Quest 2 through Oculus link (Native and via SteamVR) and ALVR (via SteamVR). The Hand Balls position is by default adjusted for the Quest 2 controller.
+- All OpenXR devices
+- All SteamVR devices (Index，HTC，Oculus)
+- All Oculus devices (Oculus Desktop App)
+- Tested on Quest 3 through ALVR
 
-**Declaimer**
+**Disclaimer**
 ---
 - This project is non-profit and some resources came from Internet!
 - Although this is under the MIT license, do not use this in commercial/profitable scenarios!
